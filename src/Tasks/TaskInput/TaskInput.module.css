@@ -1,0 +1,77 @@
+.taskControls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.taskControl label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.taskControl input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.taskActions {
+    text-align: right;
+}
+
+.newTask {
+    background-color: #77ce5d;;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 45rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .newTask button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .newTask button:hover,
+  .newTask button:active {
+    background-color: #510674;
+    border-color: #067434;
+  }
+  
+  .newTask button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .newTask button.alternative:hover,
+  .newTask button.alternative:active {
+    background-color: #678f27;
+  }
+
+  .formGroup {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .formControlRange {
+    flex: 1;
+    margin-left: 1rem;
+  }
+  
